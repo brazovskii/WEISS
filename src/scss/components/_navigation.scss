@@ -1,0 +1,32 @@
+.nav__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 65px;
+
+
+  .nav__logo {
+    display: flex;
+  }
+  nav {
+
+    .nav__link {
+      margin-left: 40px;
+      font-weight: normal;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: orange;
+        border-bottom: 2px solid orange;
+      }
+    }
+
+  }
+
+  .button__button--mail {
+    display: flex;
+  }
+}
+
+

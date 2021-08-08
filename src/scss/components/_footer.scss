@@ -1,0 +1,42 @@
+.footer {
+  background-color: #263640;
+  padding: 30px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+  &__column {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__line {
+    width: 100%;
+    &:after {
+      display: block;
+      content: "";
+      background-color: #ffffff;
+      height: 1px;
+      opacity: 0.2;
+    }
+  }
+  &__autor * {
+    width: 150px;
+    padding-right: 30px;
+    color: $wh
+  }
+  &__title {
+    padding-bottom: 20px;
+  }
+  &__text {
+    padding-bottom: 20px;
+  }
+  &__address * {
+    width: 150px;
+    color: $wh
+  }
+  &__rest {
+    padding-top: 30px;
+    color: $wh
+  }
+}

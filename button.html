@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button class="button" type="button">Ihr Projekt mit uns</button>
+  <style>
+    .button {
+      position: relative;
+
+      padding: 0.5em 2.5em 0.5em 1em;
+
+      font-family: inherit;
+      font-size: 25px;
+      border-radius: 10px;
+      color: white;
+      background: orange;
+
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+      transition: background 0.4s ease-in-out;
+    }
+    .button:hover {
+      background: #555;
+    }
+    .button:active {
+      background: #222;
+    }
+    .button:before {
+      content:"";
+      position: absolute;
+      top: calc(50% - 4.5px);
+      right: 15px;
+      width: 14px;
+      height: 2px;
+      background: white;
+      transform: rotate(45deg);
+    }
+    .button:after {
+      content: "";
+      position: absolute;
+      top: calc(50% + 4.5px);
+      right: 15px;
+      width: 14px;
+      height: 2px;
+      background: white;
+      transform: rotate(-45deg);
+
+    }
+
+  </style>
+</body>
+</html>

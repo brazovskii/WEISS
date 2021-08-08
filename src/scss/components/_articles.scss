@@ -1,0 +1,47 @@
+.articles {
+  display: flex;
+  
+
+  &__row {
+
+    width: 100%;
+
+    .addition {
+      padding-top: 200px;
+      display: flex;
+      justify-content: space-between;
+    
+      &__title {
+        padding: 0;
+      }
+    
+      &__text {
+        width: 450px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+      }
+    
+      &__button {
+        align-self: flex-end;
+      }
+    
+    }
+  
+  }
+
+  &__title {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__column {
+    max-width: 350px;
+    
+    div {
+      padding: 10px 0;
+    }
+
+  }
+
+}

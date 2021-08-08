@@ -1,0 +1,40 @@
+// text style
+@mixin text-s ($famili:Arial, $size:14px,  $weight:bold, $color:#C4C4C4, $lin-hei:28px){
+  font-family: $famili;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $lin-hei;
+}
+
+@mixin text-m ($famili:'Cairo', $size:16px, $weight:bold, $color:#C4C4C4, $lin-hei:28px){
+  font-family: $famili;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $lin-hei;
+}
+
+@mixin text-l ($famili:'Cairo', $size:20px, $weight:bold, $color:black, $lin-hei:1.5){
+  font-family: $famili;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $lin-hei;
+}
+
+@mixin text-xl ($famili:'Cairo', $size:24px, $weight:bold, $color:black, $lin-hei:1.5){
+  font-family: $famili;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $lin-hei;
+}
+
+@mixin text-xxl ($famili:Arial, $size:32px, $weight:bold, $color:black, $lin-hei:45px){
+  font-family: $famili;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $lin-hei;
+}

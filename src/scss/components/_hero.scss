@@ -1,0 +1,23 @@
+.hero {
+  padding-top: 100px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    .invitation {
+      padding-top: 100px;
+      height: 300px;
+      width: 400px;
+      &__text {
+        padding-top: 10px;
+      }
+      &__button {
+        padding-top: 50px;
+      }
+    }
+  }
+  &__building {
+    width: 590px;
+    height: 750px;
+    box-shadow: -60px 85px 0px -9px #f5f8fa;
+  }
+}
