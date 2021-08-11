@@ -1,30 +1,28 @@
-.hero {
+.hero  {
   padding-top: 10rem;
   &__content {
     display: flex;
-    justify-content: space-between;
     .invitation {
-      // padding-top: 1rem;
-      // height: 30rem;
-      // width: 40rem;
       &__name {
         padding-top: 15rem;
       }
       &__title {
-        padding-top: 2rem;
+        padding-top: 1.5rem;
       }
       &__text {
-        padding-top: 2rem;
+        padding-top: 1.5rem;
         width: 38rem;
       }
       &__button {
-        padding-top: 5rem;
+        display: flex;
+        padding-top: 3.8rem;
+        max-width: 100%;
       }
     }
   }
   &__building {
-    width: 590px;
-    height: 750px;
-    box-shadow: -60px 85px 0px -9px #f5f8fa;
+    max-width: 100%;
+    height: auto;
+    box-shadow: -50px 125px 10px 0 #acb5bb;
   }
 }

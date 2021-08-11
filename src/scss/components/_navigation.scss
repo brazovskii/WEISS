@@ -1,17 +1,16 @@
 .nav__body {
-  display: flex;
-  justify-content: space-between;
+  @include flex-s-b;
   padding-top: 6.5rem;
   nav {
     display: flex;
     align-items: center;
     .nav__link {
-      padding: 0 3rem 0 ;
+      margin: 0 3rem 0;
       text-decoration: none;
       @include text-s(Arial, 1.6rem, bold, black, 2.8rem);
       &:hover {
-        color: orange;
-        border-bottom: 0.2rem solid orange;
+        color: $color-button;
+        border-bottom: 0.5rem solid $color-button;
       }
     }
   }

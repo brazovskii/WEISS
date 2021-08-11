@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
+
 html {
   font-size: 10px;
+  .wrapper {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, "Cairo",
+      sans-serif;
+  }
 
   // 14px
   .text-s {
@@ -21,5 +27,8 @@ html {
   .text-xxl {
     @include text-xxl();
   }
-  
 }
+// .wrapper {
+//   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, "Cairo",
+//     sans-serif;
+// }

@@ -38,3 +38,8 @@
   color: $color;
   line-height: $lin-hei;
 }
+// flex
+@mixin flex-s-b {
+  display: flex;
+  justify-content: space-between;
+}

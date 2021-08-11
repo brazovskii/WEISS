@@ -3,10 +3,10 @@
   position: relative;
   padding: 0.5em 2.5em 0.5em 1em;
   font-family: inherit;
-  font-size: 20px;
+  font-size: 1.6rem;
   border-radius: 0;
   color: white;
-  background: $color-main;
+  background: $color-button;
   border: none;
   outline: none;
   cursor: pointer;
@@ -23,10 +23,10 @@
   position: relative;
   padding: 0.5em 2.5em 0.5em 1em;
   font-family: inherit;
-  font-size: 25px;
+  font-size: 1.6rem;
   border-radius: 0;
   color: white;
-  background: $color-main;
+  background: $color-button;
   border: none;
   outline: none;
   text-decoration: none;
@@ -68,7 +68,7 @@
   font-size: 16px;
   border-radius: 0;
   text-decoration: none;
-  color: $color-main;
+  color: $color-button;
   background: rgb(255, 255, 255);
   border: none;
   outline: none;
@@ -87,7 +87,7 @@
     right: 15px;
     width: 14px;
     height: 2px;
-    background: $color-main;
+    background: $color-button;
     transform: rotate(45deg);
   }
   &:after {
@@ -97,7 +97,7 @@
     right: 15px;
     width: 14px;
     height: 2px;
-    background: $color-main;
+    background: $color-button;
     transform: rotate(-45deg);
     
   }
