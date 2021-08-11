@@ -1,31 +1,19 @@
 .nav__body {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-top: 65px;
-
-
-  .nav__logo {
-    display: flex;
-  }
+  padding-top: 6.5rem;
   nav {
-
+    display: flex;
+    align-items: center;
     .nav__link {
-      margin-left: 40px;
-      font-weight: normal;
-      font-size: 20px;
+      padding: 0 3rem 0 ;
       text-decoration: none;
-      color: black;
+      @include text-s(Arial, 1.6rem, bold, black, 2.8rem);
       &:hover {
         color: orange;
-        border-bottom: 2px solid orange;
+        border-bottom: 0.2rem solid orange;
       }
     }
-
-  }
-
-  .button__button--mail {
-    display: flex;
   }
 }
 

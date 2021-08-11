@@ -1,14 +1,25 @@
-
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 560px) {
   .wrapper * {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around !important;
+  }
+  &__column {
+    padding-top: 50px 0;
 
-    &__column {
-      padding-top: 50px 0;
-    }
-    
-  }  
+  }
 
+}
+  
+@media screen and (max-width: 560px){
+  .header__nav {
+      display: none !important;
+  }
+  .button__button--mail {
+    display: none !important;
+  }
+
+  .menu-btn {
+      display: block !important;
+  }
 }
