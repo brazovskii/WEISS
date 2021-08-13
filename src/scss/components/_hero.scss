@@ -1,7 +1,8 @@
-.hero  {
-  padding-top: 10rem;
+.hero {
+  padding-top: 15rem;
   &__content {
     display: flex;
+    justify-content: space-between;
     .invitation {
       &__name {
         padding-top: 15rem;
@@ -23,6 +24,6 @@
   &__building {
     max-width: 100%;
     height: auto;
-    box-shadow: -50px 125px 10px 0 #acb5bb;
+    box-shadow: -4.5rem 5rem 0 $shodow;
   }
 }

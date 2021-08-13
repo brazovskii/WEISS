@@ -1,42 +1,39 @@
 .footer {
   background-color: #263640;
-  padding: 30px;
+  padding: 3rem;
+  margin-top: 7rem;
   &__row {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 4rem;
   }
   &__column {
     display: flex;
-    justify-content: flex-end;
   }
   &__line {
     width: 100%;
     &:after {
       display: block;
       content: "";
-      background-color: #ffffff;
-      height: 1px;
+      background-color: $wh;
+      height: 0.1rem;
       opacity: 0.2;
     }
   }
   &__autor * {
-    width: 150px;
-    padding-right: 30px;
-    color: $wh
+    width: 15rem;
+    padding-right: 3rem;
   }
   &__title {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
   }
   &__text {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
   }
   &__address * {
-    width: 150px;
-    color: $wh
+    width: 15rem;
   }
   &__rest {
-    padding-top: 30px;
-    color: $wh
+    padding-top: 3rem;
   }
 }

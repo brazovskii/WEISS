@@ -1,37 +1,13 @@
-.feauture {
-   background-color: #f5f8fa;
-  .addition {
-    width: 44rem;
-    &__title {
-      padding-top: 0;
-    }
-    &__text {
-      padding-top: 20px;
-    }
+.addition {
+  max-width: 43rem;
+  &__text {
+    padding: 2rem 0 2rem 0;
   }
-  &__row {
-    .about {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 70px;
-      &__column {
-        width: 290px;
-      }
-      &__icon {
-        width: 290px;
-      }
-      &__title {
-        padding-top: 25px;
-      }
-      &__text {
-        padding-top: 25px;
-        padding-bottom: 25px;
-      }
-      &__button {
-        padding-top: 0;
-      }
-    }
-  }
-
 }
-
+.about {
+  @include flex-s-b;
+  &__column * {
+    max-width: 31.2rem;
+    margin-top: 2rem;
+  }
+}

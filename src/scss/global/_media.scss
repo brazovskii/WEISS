@@ -1,36 +1,28 @@
-@media (min-width: 310px) and (max-width: 980px) {
-  .wrapper * {
-    flex-wrap: wrap;
-    align-content: center;
-  }
+@media (min-width: 320px) and (max-width: 1024px) {
   .container {
     margin: 1.5rem !important;
   }
   .nav__body {
-    flex-wrap: wrap;
-    justify-content: center !important;
     padding: 0 !important;
+    .header__nav {
+      display: none !important;
+    }
+    .menu-btn {
+      display: block !important;
+      margin: 1rem 1.5rem 0 0;
+    }
+    .button__button--mail {
+      display: none !important;
+    }
   }
 
-  .header__nav {
-    display: none !important;
-  }
-
-  .button__button--mail {
-    display: none !important;
-  }
-
-  .menu-btn {
-    display: block !important;
-    margin: 1rem 1.5rem 0 0;
-  }
   .hero {
     padding-top: 2rem !important;
-    &__content  * {
+    &__content {
+      flex-wrap: wrap !important;
+      justify-content: center !important;
       text-align: center;
-      box-shadow: none !important;
       .invitation {
-        
         &__name {
           padding-top: 1rem !important;
         }
@@ -45,12 +37,61 @@
           justify-content: center;
           max-width: 100% !important;
           height: auto;
-          padding: 1rem 0 2rem 0!important;
+          padding: 1rem 0 2rem 0 !important;
         }
       }
     }
     &__building {
       width: 100% !important;
+      box-shadow: none !important;
+    }
+  }
+  .addition {
+    justify-content: center !important;
+    text-align: center;
+    display: contents;
+  }
+  .about {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center !important;
+  }
+  .bloc {
+    padding-top: 2rem !important;
+    .history {
+      padding: 0 !important;
+      display: flex !important;
+      text-align: center;
+      justify-content: center;
+      max-width: 100% !important;
+      box-shadow: none !important;
+
+      &__icon {
+        display: none;
+      }
+    }
+  }
+  .articles {
+    text-align: center !important;
+    &__button {
+      justify-content: center !important;
+      padding-bottom: 1rem !important;
+    }
+  }
+  .footer * {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    &__body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      &__row {
+        flex-wrap: wrap;
+        .nav__logo {
+          justify-content: center;
+        }
+      }
     }
   }
 }

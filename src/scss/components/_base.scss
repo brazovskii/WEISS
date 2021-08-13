@@ -6,7 +6,6 @@ html {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, "Cairo",
       sans-serif;
   }
-
   // 14px
   .text-s {
     @include text-s();
@@ -28,7 +27,3 @@ html {
     @include text-xxl();
   }
 }
-// .wrapper {
-//   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, "Cairo",
-//     sans-serif;
-// }
