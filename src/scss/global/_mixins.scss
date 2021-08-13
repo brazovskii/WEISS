@@ -1,5 +1,11 @@
 // text style
-@mixin text-s ($famili:Arial, $size:1.4rem,  $weight:bold, $color:#C4C4C4, $lin-hei:28px){
+@mixin text-s(
+  $famili: Arial,
+  $size: 1.4rem,
+  $weight: bold,
+  $color: #c4c4c4,
+  $lin-hei: 28px
+) {
   font-family: $famili;
   font-size: $size;
   font-weight: $weight;
@@ -7,7 +13,13 @@
   line-height: $lin-hei;
 }
 
-@mixin text-m ($famili:'Cairo', $size:1.6rem, $weight:bold, $color:#C4C4C4, $lin-hei:28px){
+@mixin text-m(
+  $famili: "Cairo",
+  $size: 1.6rem,
+  $weight: bold,
+  $color: #c4c4c4,
+  $lin-hei: 28px
+) {
   font-family: $famili;
   font-size: $size;
   font-weight: $weight;
@@ -15,7 +27,13 @@
   line-height: $lin-hei;
 }
 
-@mixin text-l ($famili:Arial, $size:2rem, $weight:bold, $color:black, $lin-hei:1.5){
+@mixin text-l(
+  $famili: Arial,
+  $size: 2rem,
+  $weight: bold,
+  $color: black,
+  $lin-hei: 1.5
+) {
   font-family: $famili;
   font-size: $size;
   font-weight: $weight;
@@ -23,7 +41,13 @@
   line-height: $lin-hei;
 }
 
-@mixin text-xl ($famili:Arial, $size:2.4rem, $weight:bold, $color:black, $lin-hei:1.5){
+@mixin text-xl(
+  $famili: Arial,
+  $size: 2.4rem,
+  $weight: bold,
+  $color: black,
+  $lin-hei: 1.5
+) {
   font-family: $famili;
   font-size: $size;
   font-weight: $weight;
@@ -31,7 +55,13 @@
   line-height: $lin-hei;
 }
 
-@mixin text-xxl ($famili:Arial, $size:3.2rem, $weight:bold, $color:black, $lin-hei:45px){
+@mixin text-xxl(
+  $famili: Arial,
+  $size: 3.2rem,
+  $weight: bold,
+  $color: black,
+  $lin-hei: 45px
+) {
   font-family: $famili;
   font-size: $size;
   font-weight: $weight;
@@ -42,4 +72,8 @@
 @mixin flex-s-b {
   display: flex;
   justify-content: space-between;
+}
+@mixin flex-c-c {
+  text-align: center !important;
+  justify-content: center !important;
 }

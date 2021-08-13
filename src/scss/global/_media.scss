@@ -11,7 +11,7 @@
       display: block !important;
       margin: 1rem 1.5rem 0 0;
     }
-    .button__button--mail {
+    .button--mail {
       display: none !important;
     }
   }
@@ -20,8 +20,7 @@
     padding-top: 2rem !important;
     &__content {
       flex-wrap: wrap !important;
-      justify-content: center !important;
-      text-align: center;
+      @include flex-c-c;
       .invitation {
         &__name {
           padding-top: 1rem !important;
@@ -47,22 +46,19 @@
     }
   }
   .addition {
-    justify-content: center !important;
-    text-align: center;
+    @include flex-c-c;
     display: contents;
   }
   .about {
     flex-wrap: wrap;
-    text-align: center;
-    justify-content: center !important;
+    @include flex-c-c;
   }
   .bloc {
     padding-top: 2rem !important;
     .history {
       padding: 0 !important;
       display: flex !important;
-      text-align: center;
-      justify-content: center;
+      @include flex-c-c;
       max-width: 100% !important;
       box-shadow: none !important;
 
@@ -71,27 +67,15 @@
       }
     }
   }
-  .articles {
-    text-align: center !important;
-    &__button {
-      justify-content: center !important;
-      padding-bottom: 1rem !important;
-    }
+  .articles * {
+    @include flex-c-c;
   }
   .footer * {
     max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
-    &__body {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      &__row {
-        flex-wrap: wrap;
-        .nav__logo {
-          justify-content: center;
-        }
-      }
-    }
+    flex-wrap: wrap;
+    @include flex-c-c ;
+    color: $wh !important;
   }
 }
