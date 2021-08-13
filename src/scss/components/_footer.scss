@@ -1,4 +1,7 @@
 .footer {
+  &__body * {
+    color: $wh !important;
+  }
   background-color: #263640;
   padding: 3rem;
   margin-top: 7rem;
@@ -34,7 +37,7 @@
   &__address * {
     width: 15rem;
   }
-  &__rest {
+  &__cancel {
     padding-top: 3rem;
   }
 }
