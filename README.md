@@ -1,2 +1,2 @@
 # WEISS
-https://brazuly.github.io/WEISS/
+https://brazovskii.github.io/WEISS/
